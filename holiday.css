@@ -1,0 +1,98 @@
+body {
+    background-color: #042867df;
+    color: rgb(35, 241, 241);
+      font-family: 'Oswald', sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    padding: 15px;
+    color: #050402;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 15px;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 500;
+    line-height: 2.7;
+    letter-spacing: 0.8px;
+  }
+  
+  th {
+    border: 2px solid #080604;
+  }
+  
+  table {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  td {
+    border: 2px solid #030201;
+    width: 300px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+    background-color: #0a426a;
+    z-index: 5;
+  }
+  footer h3 {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #151e3f;
+  }
+  
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 800px;
+  }
+  
+  
+  .left {
+    width: 150px;
+  }
+  a:link {
+    color: rgb(9, 93, 121);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(7, 89, 197);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
