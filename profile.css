@@ -1,0 +1,49 @@
+.header {
+    background-color:Cornflower;
+    text-align:center;
+    font-size:26px;
+    color: rgb(246, 241, 241);
+  }
+  
+  .about-me{
+    font-size:20px;
+    color:rgb(250, 245, 245);
+
+  }
+  .title{
+    font-weight:bold;
+    color: rgb(253, 253, 253);
+    font-family: monospace;
+    background-color: rgb(14, 14, 14);
+  }
+  h1{
+    color: rgb(235, 243, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h2{
+    color: rgb(245, 252, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    background-color: rgba(1, 17, 7, 0.968); 
+  }
+  body{
+    font-family: Georgia;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: rgb(103, 149, 118);
+
+  }
+  img{
+      
+  }
+  div {
+    background-color: rgb(41, 74, 50);
+    opacity: 1;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  p {
+    color: rgb(9, 9, 9);
+  }
