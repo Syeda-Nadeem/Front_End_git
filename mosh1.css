@@ -1,0 +1,20 @@
+table,th,td,thead,tr{
+    border:1px solid green;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+tfoot{
+    text-align: left;
+}
+.product{
+    background-color: rgb(225, 225, 241);
+    width: 500px;
+}
+.highlight{
+    background-color: blueviolet;
+}
+figcaption{
+    text-align: left;
+    font-size: 25px;
+}
