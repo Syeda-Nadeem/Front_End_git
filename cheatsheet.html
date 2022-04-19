@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="./cheatsheet.css">
+    
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul class="Languages">
+              <li><a href="#HTML"> HTML</a></li>
+              <li><a href="#CSS"> CSS</a></li>
+            </ul>
+        </nav>
+      <h1 class="main-heading">Cheatsheet</h1>
+    </header>
+    <article>
+        <p>
+            Most prominent skills you’ll want to have as a front-end developer are:
+HTML, CSS, and JavaScript: These three languages are essential to anyone who wants to work in front-end development. HTML, CSS, and JavaScript work together to determine the look and functionality of the page. 
+Frameworks: Frameworks are tools required for JavaScript and CSS to perform the way you want them to. Having a solid understanding of them is crucial for creating page structures.
+Easy to follow tutorials can be used on <a href="https://www.w3schools.com/"> W3 School</a>.And if you want to go deeper try codeacademy Pro.
+       </p>
+    </article>
+    <article class ="HTML">
+        <h1 id="HTML"> HTML</h1>
+      <p>
+        HTML stands for Hyper Text Markup Language. HTML provides structure to
+        any website. HTML describe elements to browswer on render any page. Any
+        HTML docuement always start with "DOCTYPE HTML" declartion.
+      </p>
+      <table>
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;table&gt;</td>
+            <td>Table</td>
+            <td>The wrapper elements for all HTML tables</td>
+          </tr>
+          <tr>
+            <td>&lt;h1 to h6&gt;</td>
+            <td>Heading</td>
+            <td>
+              The wrapper elements for all HTML headings. It can be defined with
+              &lt;h1 &gt; to &lt;h6&gt; tags. Each number defines the
+              significance on the page.
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt;</td>
+            <td>Paragraph</td>
+            <td>The wrapper elements for all paragraphs.</td>
+          </tr>
+          <tr>
+            <td>&lt;a&gt;</td>
+            <td>Link</td>
+            <td>
+              The HTML tag defines hyperlink. It has the following syntax
+              <em>&lt;a href="url" &gt; </em> we can set the target of for tab
+              opening like this em>&lt;a href="url" target= "_blank"&gt; </em>
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;img&gt;</td>
+            <td> Images</td>
+            <td>This html tag is use to embed an image in a web page. <b>img</b> has two attributes src: Specified the path to image and alt: Specifies alternate text.</td>
+          </tr>
+          <tr>
+            <td>&lt;style&gt;</td>
+            <td>Style</td>
+            <td>This tag is use to addstyle elements and normall writes in inline CSS format. But it is best practise to create another CSS file and then emebed it with the help of link tag.</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <article id="CSS">
+        <h1> CSS</h1>
+        <p> CSS stands for Cascading Style Sheets.
+            CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+            CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+            External stylesheets are stored in CSS files.The selector points to the HTML element you want to style.
+
+            The declaration block contains one or more declarations separated by semicolons.
+            
+            Each declaration includes a CSS property name and a value, separated by a colon.
+            
+            Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+        </p>
+        <table>
+            <thead>
+                <th>Property</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td> p {
+                    color: red;
+                  }</td>
+                <td> Color property</td>
+                <td>p is a selector in CSS (it points to the HTML element you want to style).
+                    Color is a property, and red is the property value.</td>
+              </tr>
+              <tr>
+                <td>body {
+                    background-color: lightblue;
+                  }</td>
+                <td>Background-color property</td>
+                <td>
+                    The background-color property specifies the background color of an element.Similarly we can set any images with different styles for examples if we want to repeat certain image on the page.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    body{border-style:}</td>
+                <td>Border property</td>
+                <td>The border-style property specifies what kind of border to display.
+                </td>
+              </tr>
+              <tr>
+                <td>p {
+                    margin-top: 100px;
+                    margin-bottom: 100px;
+                    margin-right: 150px;
+                    margin-left: 80px;
+                  }</td>
+                <td>CSS Margins</td>
+                <td>
+                    The CSS margin properties are used to create space around elements, outside of any defined borders.
+                    With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+                </td>
+              </tr>
+              <tr>
+                <td>div {
+                    padding-top: 50px;
+                    padding-right: 30px;
+                    padding-bottom: 50px;
+                    padding-left: 80px;
+                  }</td>
+                <td> Paddding</td>
+                <td>The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+                    With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
+                    
+                    </td>
+              </tr>
+              <tr>
+                <td>img {
+                    border-radius: 8px;
+                  }</td>
+                <td>Img property</td>
+                <td>Use the border-radius property to create rounded images:</td>
+              </tr>
+            </tbody>
+          </table>
+    </article>
+  </body>
+</html>

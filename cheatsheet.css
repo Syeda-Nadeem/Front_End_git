@@ -1,0 +1,60 @@
+header{
+    background-color:rgb(96, 80, 56);
+    width: 100%;
+    height: 100px;
+    padding: 80px;
+    color: azure
+
+}
+body{
+    font-family:serif;
+}
+th{
+    background-color:rgb(96, 80, 56);
+    color: rgb(238, 254, 254);
+    text-align: center;
+    font-size: larger;
+}
+table,td {
+    border: 2px solid rgb(197, 192, 192);
+    border-collapse: collapse;
+    margin: 30px;
+    padding: 20px;
+}
+tfoot{
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color:cornsilk;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+
+}
+ul {
+    list-style-type: none;
+    margin: auto 0;
+    padding: auto 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    height: 80px;
+  }
+  
+li {
+    float:left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
